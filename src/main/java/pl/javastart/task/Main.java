@@ -8,8 +8,8 @@ public class Main {
     // poniżej przykładowe wydruki
     // to zadanie ma dostępne testy jednostkowe w src/test/java/[...]/BubbleSortTest
     public static void main(String[] args) {
-        sortAndPrintInfo(1, 2, 3);
-        sortAndPrintInfo(5, 2, 1);
+        sortAndPrintInfo(1, 2, 3, 4, 5);
+        sortAndPrintInfo(5, 4, 3, 2, 1);
     }
 
     private static void sortAndPrintInfo(int... arrayToSort) {
